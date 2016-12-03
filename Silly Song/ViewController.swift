@@ -28,10 +28,6 @@ class ViewController: UIViewController {
         lyricsView.text.removeAll()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     @IBAction func reset(_ sender: AnyObject) {
         nameField.text?.removeAll()
