@@ -40,23 +40,24 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1wc-XP-FMS">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="7rR-ig-ZDz"/>
                                     <constraint firstAttribute="height" constant="140" id="Wkc-my-qCg"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.050420435297488742" green="0.81192532730994194" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1wc-XP-FMS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="0wq-cl-ERh"/>
                             <constraint firstItem="GnK-IJ-X2x" firstAttribute="leading" secondItem="1wc-XP-FMS" secondAttribute="trailing" constant="-342" id="9sS-lb-FaE"/>
                             <constraint firstItem="1wc-XP-FMS" firstAttribute="top" secondItem="GnK-IJ-X2x" secondAttribute="bottom" constant="28" id="E7o-92-cdw"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="GnK-IJ-X2x" secondAttribute="leading" id="GG1-yK-0rc"/>
+                            <constraint firstItem="GnK-IJ-X2x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="E8d-WA-m7K"/>
                             <constraint firstItem="1wc-XP-FMS" firstAttribute="centerX" secondItem="GnK-IJ-X2x" secondAttribute="centerX" constant="-1.5" id="Iof-Jr-FS4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1wc-XP-FMS" secondAttribute="trailing" constant="5" id="M63-tC-SYd"/>
                             <constraint firstItem="GnK-IJ-X2x" firstAttribute="top" secondItem="ZT7-2f-gdt" secondAttribute="bottom" constant="26" id="PnR-av-h9R"/>
                             <constraint firstItem="ZT7-2f-gdt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XtK-io-3Sl"/>
-                            <constraint firstItem="GnK-IJ-X2x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eIU-nb-t6x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GnK-IJ-X2x" secondAttribute="trailing" constant="3" id="dqL-RH-1jE"/>
                             <constraint firstItem="ZT7-2f-gdt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="yWF-hI-f1f"/>
                         </constraints>
                     </view>
